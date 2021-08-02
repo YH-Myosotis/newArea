@@ -1,0 +1,89 @@
+/* .single-choice{
+  width: 650px;
+} */
+/* .addFooter{
+  text-align:right;
+  margin:0px auto 0px auto;
+} */
+/* .mr30{
+  margin-top: 30px;
+}
+.w650{
+  width: 650px;
+}
+.w290{
+  width: 290px;
+} */
+/* 章节管理-新增章节弹窗 */
+/* .popChapter .el-dialog__header{
+    height: 30px;
+    padding: 0 0 0;
+  } */
+  /* .popChapter .el-dialog__body{
+    height:450px;
+  }
+  
+  .add-editor{
+    height: 400px;
+    width: 1180px;
+  }
+  
+  .add-editor .mavon-editor{
+    height:300px;
+  } */
+  /* 表格处理 */
+  /* .container {
+    min-height: 75vh;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  } */
+  /* .crumbs {
+    margin: 10px 0;
+} */
+/* 分页 */
+  /* .pagination {
+    text-align: right;
+    margin-top: 15px;
+  } */
+  
+  .handle-box {
+    margin-bottom: 20px;
+  }
+  /* 下拉选择 */
+  /* .handle-select {
+    width: 120px;
+  } */
+  /* 输入 */
+  .handle-input {
+    width: 300px;
+    display: inline-block;
+  }
+  /* 上传 */
+  /* .handle-upload{
+    width: 100px;
+    display: inline-block;
+  } */
+  /* 表格 */
+  .table {
+    width: 100%;
+    font-size: 14px;
+  }
+  .table-td-thumb {
+    /* display: block; */
+    margin: auto;
+    width: 40px;
+    height: 40px;
+  }
+  .mr10 {
+    margin-right: 10px;
+  }
+  /* 树形标签大小 */
+  /* .label-size{
+    font-size: 14px;
+  } */
+/* 上传列表隐藏 */
+/* .el-upload-list{
+  display: none !important;
+} */

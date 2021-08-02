@@ -1,0 +1,292 @@
+[{
+	"regional": "深圳",
+	"name": "苹果",
+	"todayPrice": 8,
+	"yesterDayPrice": 9,
+	"priceRate": -0.11,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-01",
+	"isRelease": false,
+	"offTime": "2021-03-01",
+	"invalid":0
+
+}, {
+	"regional": "广州",
+	"name": "香蕉",
+	"todayPrice": 5,
+	"yesterDayPrice": 7,
+	"priceRate": -0.29,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-25",
+	"isRelease": true,
+	"offTime": "2021-02-01"
+	,
+	"invalid":1
+}, {
+	"regional": "河西区",
+	"name": "葡萄",
+	"todayPrice": 10,
+	"yesterDayPrice": 6,
+	"priceRate": 0.67,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-04-22",
+	"isRelease": true,
+	"offTime": "2021-07-01"
+	,
+	"invalid":0
+}, {
+	"regional": "张家口市",
+	"name": "冬枣",
+	"todayPrice": 5,
+	"yesterDayPrice": 7,
+	"priceRate": -0.29,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-05-11",
+	"isRelease": false,
+	"offTime": "2021-06-14"
+	,
+	"invalid":1
+}, {
+	"regional": "广州",
+	"name": "雪梨",
+	"todayPrice": 10,
+	"yesterDayPrice": 10,
+	"priceRate": 0.0,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-01",
+	"isRelease": false,
+	"offTime": "2021-02-11"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "鸭梨",
+	"todayPrice": 8,
+	"yesterDayPrice": 5,
+	"priceRate": 0.6,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-01",
+	"isRelease": false,
+	"offTime": "2021-01-11"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "芒果",
+	"todayPrice": 10,
+	"yesterDayPrice": 6,
+	"priceRate": 0.67,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-01",
+	"isRelease": false,
+	"offTime": "2021-01-14"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "哈密瓜",
+	"todayPrice": 8,
+	"yesterDayPrice": 10,
+	"priceRate": -0.2,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-09-25",
+	"isRelease": false,
+	"offTime": "2021-10-01"
+}, {
+	"regional": "广州",
+	"name": "香瓜",
+	"todayPrice": 5,
+	"yesterDayPrice": 10,
+	"priceRate": -0.5,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-07-24",
+	"isRelease": false,
+	"offTime": "2021-08-25"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "青提",
+	"todayPrice": 9,
+	"yesterDayPrice": 8,
+	"priceRate": 0.13,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-04-23",
+	"isRelease": false,
+	"offTime": "2021-06-20"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "枸杞",
+	"todayPrice": 7,
+	"yesterDayPrice": 10,
+	"priceRate": -0.3,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-03-29",
+	"isRelease": false,
+	"offTime": "2021-04-22"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "龙眼",
+	"todayPrice": 8,
+	"yesterDayPrice": 9,
+	"priceRate": -0.11,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-28",
+	"isRelease": false,
+	"offTime": "2021-02-21"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "红枣",
+	"todayPrice": 8,
+	"yesterDayPrice": 5,
+	"priceRate": 0.6,
+	"releaseTime": "2021-03-14",
+	"isRelease": false,
+	"offTime": "2021-05-11"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "冬瓜",
+	"todayPrice": 8,
+	"yesterDayPrice": 10,
+	"priceRate": -0.2,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-01",
+	"isRelease": false,
+	"offTime": "2021-01-02"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "南瓜",
+	"todayPrice": 6,
+	"yesterDayPrice": 6,
+	"priceRate": 0.0,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-03-16",
+	"isRelease": false,
+	"offTime": "2021-04-12"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "青椒",
+	"todayPrice": 10,
+	"yesterDayPrice": 10,
+	"priceRate": 0.0,
+	"releaseTime": "2021-05-01",
+	"isRelease": false,
+	"offTime": "2021-05-06"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "上海青",
+	"todayPrice": 10,
+	"yesterDayPrice": 6,
+	"priceRate": 0.67,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-03-14",
+	"isRelease": false,
+	"offTime": "2021-04-03"
+	,
+	"invalid":0
+}, {
+	"regional": "杨美市场",
+	"name": "椰子",
+	"todayPrice": 8,
+	"yesterDayPrice": 8,
+	"priceRate": 0.0,
+	"releaseTime": "2021-09-25",
+	"isRelease": false,
+	"offTime": "2021-11-10"
+	,
+	"invalid":0
+}, {
+	"regional": "五和市场",
+	"name": "四季豆",
+	"todayPrice": 6,
+	"yesterDayPrice": 10,
+	"priceRate": -0.4,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-01-27",
+	"isRelease": false,
+	"offTime": "2021-02-14"
+	,
+	"invalid":0
+}, {
+	"regional": "五和市场",
+	"name": "豇豆",
+	"todayPrice": 10,
+	"yesterDayPrice": 6,
+	"priceRate": 0.67,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-02-22",
+	"isRelease": false,
+	"offTime": "2021-02-23"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "芥蓝",
+	"todayPrice": 6,
+	"yesterDayPrice": 6,
+	"priceRate": 0.0,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-04-24",
+	"isRelease": false,
+	"offTime": "2021-06-01"
+	,
+	"invalid":0
+}, {
+	"regional": "广州",
+	"name": "西蓝花",
+	"todayPrice": 7,
+	"yesterDayPrice": 9,
+	"priceRate": 50,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-03-23",
+	"isRelease": false,
+	"offTime": "2021-04-01"
+	,
+	"invalid":0
+}, {
+	"regional": "扬马市场",
+	"name": "花菜",
+	"todayPrice": 6,
+	"yesterDayPrice": 7,
+	"priceRate": -0.14,
+	"num":12,
+	"proportion":20,
+	"releaseTime": "2021-02-07",
+	"isRelease": 1111,
+	"offTime": "2021-03-21"
+	,
+	"invalid":0
+}]
