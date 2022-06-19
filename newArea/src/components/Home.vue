@@ -40,6 +40,7 @@
         </el-select><!--@change="regionalch(regionalinit[selectValue.regional-selectValue.province-1])" -->
         <el-button type="primary" @click="query(regionalinit[selectValue.regional-selectValue.province-1])" :rules="{required: true, message: '执行时间不能为空', trigger: 'blur'}">查询</el-button>
         <el-button type="primary" @click="Refresh">刷新</el-button>
+        <el-button type="primary" @click="echart">图表</el-button>
       </div>
       <div class="handle-box">
         <el-button type="primary" @click="isAddup = true">新增</el-button>
@@ -131,6 +132,17 @@
       :record="record" 
       :province="pro">
       </product-details><!--详情页面-->
+
+      <el-dialog
+        title="价格"
+        :visible.sync="echartshow"
+        width="80%">
+        <div ref="echartref" style="width:600px;height:400px;"></div>
+        <!-- <span slot="footer" class="dialog-footer">
+          <el-button @click="dialogVisible = false">取 消</el-button>
+          <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
+        </span> -->
+      </el-dialog>
     
 </div>
 </template>
@@ -182,7 +194,9 @@ export default {
       upnowtimed:{},
       rules:{
         
-      }
+      },
+      echartshow:false,
+      myChart:undefined
     }
   },
   components:{
@@ -193,6 +207,7 @@ export default {
   },
   created(){
     this.getData();
+    // console.log(11111)
     this.getTime();
   },
   mounted(){
@@ -479,6 +494,60 @@ export default {
     headerClass() {
       return "background:RGB(238,239,246);";
     },
+
+    echart(){
+      this.echartshow = true;
+      if(this.myChart)return
+      this.$nextTick(()=>{
+        let ele = this.$refs.echartref;//echarts.init(document.getElementById('main'))
+        this.myChart = this.$echarts.init(ele);
+        // console.log(this.tableData)
+        let datamap = new Map();
+        for(let i=0;i<this.tableData.length;i++){
+          if(datamap.has(this.tableData[i].regional)){
+            let num = datamap.get(this.tableData[i].regional)
+            datamap.set(this.tableData[i].regional , num + this.tableData[i].todayPrice)
+          }else{
+            datamap.set(this.tableData[i].regional , this.tableData[i].todayPrice)
+          }
+        }
+        let x = [];
+        let y = [];
+        datamap.forEach((v,i)=>{
+          x.push(i);
+          y.push(v);
+        })
+        // 指定图表的配置项和数据
+        var option = {
+          title: {
+            text: '昨日价格'
+          },
+          tooltip: {},
+          legend: {
+            data: ['价格']
+          },
+          xAxis: {
+            data: x
+          },
+          yAxis: {},
+          series: [
+            {
+              name: '价格',
+              type: 'bar',
+              data: y
+            }
+          ]
+        };
+  
+        // 使用刚指定的配置项和数据显示图表。
+        this.myChart.setOption(option);
+        this.myChart.on('click',(params)=>{
+          // console.log(params.name)
+        })
+      })
+      
+      
+    }
   },
 }
 </script>

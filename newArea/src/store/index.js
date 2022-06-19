@@ -34,7 +34,7 @@ export default new Vuex.Store({
       // let nn = payload.sort(compare('releaseTime'))
       // let nn = payload.sort(c=>(a,b)=>a[releaseTime]-b[releaseTime])
       // let nn = payload.sort((a,b)=>parseInt(a.releaseTime.splice(4,1).splice(6,1))-parseInt(b.releaseTime.splice(4,1).splice(6,1)))
-      console.log(nn);
+      // console.log(nn);
     },
     recordDataTiopic(state, payload) {
         state.recordDataArr = payload;
